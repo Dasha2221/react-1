@@ -1,0 +1,25 @@
+.neardy__block {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.neardy__list {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.nearby {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    border-bottom: 1px solid #dee2e6;
+    gap: 8px;
+}

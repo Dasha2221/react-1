@@ -3,8 +3,6 @@ import "./index.css";
 import Box from "../box";
 import ListItem from "../list-item";
 
-import test from "./test.svg";
-
 export default function Price({ price, discount, currency, ...rest }) {
   return (
     <Box className="price">
@@ -30,10 +28,10 @@ export default function Price({ price, discount, currency, ...rest }) {
   );
 }
 
-function List({ currency, cleaning = 0, service = 0, checkin, checkin }) {
+function List({ currency, cleaning = 0, service = 0, checkin, checkout }) {
   return (
     <ul className="price__list">
-      <ListItem imageSrc={test}>
+      <ListItem>
         <span>Плата за прибирання: </span>
         <span>
           {currency}

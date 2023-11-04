@@ -1,34 +1,43 @@
-.room__block {
+.guest__block {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.room__list {
+.guest__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
 
-.room {
+.guest {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.room__title {
+.guest_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+
+}
+
+.guest__title {
     color: #000;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bold;
 }
 
-.room__info {
+.guest__rating {
     font-size: 16px;
     color: #000;
 }
 
-.room__price {
-    font-size: 20px;
+.guest__review {
+    font-size: 16px;
     color: #000;
-    font-weight: bold;
+    font-weight: 400;
+    line-height: 150%;
 }
